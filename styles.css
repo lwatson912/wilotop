@@ -15,7 +15,7 @@
     --clr-neutral-100: ;
     --clr-neutral-900: ;
 /* font family */
-    --ff-primary: sans-serif;
+    --ff-primary: 'Unbounded', cursive;
 
     --ff-body: var(--ff-primary);
     --ff-heading: var(--ff-primary);
@@ -32,6 +32,7 @@
 
 body {
     background: #E7ECEF;
+    font-family: var(--ff-primary)
 }
 
 /* Box sizing rules */
@@ -153,5 +154,31 @@ select {
 }
 .bg-neutral-900 {
   background-color: var(--clr-neutral-900);
+}
+
+/* START NORMAL CODING FROM HERE */
+
+.header {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-content: center;
+  justify-content: center;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #6096BA;
 }
 
