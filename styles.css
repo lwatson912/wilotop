@@ -7,13 +7,13 @@
 
 
 :root {
-    --clr-accent-400: ;
-    --clr-accent-100: ;
+    --clr-accent-400: #6096BA;
+    --clr-accent-100: #A3CEF1;
 
-    --clr-primary-400: ;
+    --clr-primary-400: #274C77;
 
-    --clr-neutral-100: ;
-    --clr-neutral-900: ;
+    --clr-neutral-100: #8B8C89;
+    --clr-neutral-900: #E7ECEF;
 /* font family */
     --ff-primary: 'Unbounded', cursive;
 
@@ -161,7 +161,8 @@ select {
 .header {
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  padding: 1rem;
+  
 }
 
 .menu {
@@ -179,6 +180,9 @@ a {
 }
 
 a:hover {
-  color: #6096BA;
+  color: var(--clr-primary-400);
 }
 
+.logo {
+  height: 4rem;
+}
