@@ -157,12 +157,21 @@ select {
 }
 
 /* START NORMAL CODING FROM HERE */
+li {
+  padding: 1rem;
+}
+
 
 .header {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
   padding: 1rem;
-  
+}
+
+.logo {
+  height: 56px;
 }
 
 .menu {
@@ -183,6 +192,18 @@ a:hover {
   color: var(--clr-primary-400);
 }
 
-.logo {
-  height: 4rem;
+.columns {
+  box-sizing: border-box;
+}
+
+.content {
+  box-sizing: border-box;
+  width: 700px;
+  float: left;
+}
+
+.sidebar {
+  box-sizing: border-box;
+  width: 280px;
+  float: right;
 }
