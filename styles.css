@@ -233,7 +233,7 @@ body {
   width: 100%;
   border-radius: 5px 0px 0px 5px;
   padding-left: 5vw;
-  cursor: pointer;
+  /* cursor: pointer; */
   display: flex;
   align-items: center;
   justify-content: left;
@@ -260,6 +260,7 @@ body {
   font-size: 1.2rem;
   height: 8vh;
   width: 8vh;
+  cursor: pointer;
 }
 
 .blue {
