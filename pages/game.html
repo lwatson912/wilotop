@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hide and Seek Game</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div>
+            <h1>Hide and Seek</h1>
+        </div>
+        <div>
+            <span class="time" id="highScore">First Try</span>
+        </div>
+    </header>
+    <main class="main">
+        <div class="settings">
+            <!-- <button id="start" class="start-button">Start</button> -->
+            <button id="start">Start</button>
+            <span class="time" id="display">00:00:00</span>
+            <div class="character-container">
+                <div id="wally" class="wally">
+                    <div class="face bod-wally"></div>
+                    <div class="red-body bod-wally"></div>
+                    <div class="white-body bod-wally"></div>
+                    <div class="red-body bod-wally"></div>
+                </div>
+            </div>
+            <div class="character-container">
+                <div id="odlaw" class="odlaw">
+                    <div class="face bod-odlaw"></div>
+                    <div class="black-body bod-odlaw"></div>
+                    <div class="yellow-body bod-odlaw"></div>
+                    <div class="black-body bod-odlaw"></div>
+                </div>
+            </div>
+            <div class="character-container">
+                <div id="wizard" class="wizard">
+                    <div class="blue-body bod-wizard"></div>
+                    <div class="red-body bod-wizard"></div>
+                    <div class="red-body bod-wizard"></div>
+                    <div class="red-body bod-wizard"></div>
+                </div>
+            </div>
+            <button id="resetButton">Reset</button>
+            <!-- will come back to the dog later -->
+            <!-- <div id="woof" class="woof">
+                <div class="face"></div>
+                <div class="red-body"></div>
+            </div> -->
+        </div>
+        <div id="grid" class="grid"></div>
+    </main>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Press the Start button which will generate a random grid of 
+                coloured squares and the 3 characters to find.<br>
+                When you find a character press on his head (the top square).<br>
+                When all 3 are found the timer will stop - high score function coming soon!!
+            </p>
+        </div>
+    </div>
+<script src="../main.js"></script>
+</body>
+</html>
